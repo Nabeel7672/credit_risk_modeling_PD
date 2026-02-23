@@ -1,28 +1,26 @@
-# Credit Risk Modeling: Probability of Default (PD)
+# Credit Risk Modeling — Probability of Default (PD)
 
-This is a guided project on **credit risk modeling** using a fictional financial loan dataset. The goal is to predict the **Probability of Default (PD)** for borrowers using **Logistic Regression**.
+This project demonstrates **credit risk modeling** using **Logistic Regression** to predict the **Probability of Default (PD)** for borrowers.
 
 ## Project Overview
+The goal is to identify high-risk borrowers before approving loans. A **fictional Bnak loan dataset** is used to simulate real-world scenarios.
 
-The project demonstrates the end-to-end workflow for credit risk analysis:
+## What’s Included
+- **Data Cleaning:** Handled missing values and removed unrealistic outliers  
+- **Exploratory Analysis:** Visualizations to understand borrower behavior and default patterns  
+- **Feature Preprocessing:** One-hot encoding for categorical variables  
+- **Modeling:** Logistic Regression implementation in Python  
+- **Evaluation:** Model performance using accuracy, ROC-AUC, and classification metrics  
 
-- Data cleaning: handling missing values and removing unrealistic outliers  
-- Exploratory analysis: understanding borrower behavior and default patterns  
-- Feature preprocessing: one-hot encoding for categorical variables  
-- Model building: Logistic Regression to predict loan default risk  
-- Evaluation: using accuracy, ROC-AUC, and classification metrics  
+## Files
+- `credit_risk_modeling.ipynb` — Jupyter Notebook with full Python code  
+- `loan_data.csv` — Fictional dataset used for modeling  
 
 ## Key Insights
-
 - Higher interest rates and loan-to-income ratios increase default risk  
 - Borrower characteristics like income, employment length, and loan intent strongly impact risk  
-- The model helps identify high-risk borrowers before lending decisions  
+- Model helps guide lending decisions based on predicted risk  
 
-## What I Learned
+---
 
-- End-to-end credit risk modeling workflow  
-- Practical experience with Logistic Regression in Python  
-- Feature engineering and model evaluation for financial datasets  
-- Understanding how models support lending risk decisions  
-
-The dataset and Python notebook for this project are uploaded in this repository.
+This repository provides a complete **end-to-end coding workflow** for credit risk modeling in Python.
