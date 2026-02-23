@@ -3,7 +3,7 @@
 This project demonstrates **credit risk modeling** using **Logistic Regression** to predict the **Probability of Default (PD)** for borrowers.
 
 ## Project Overview
-The goal is to identify high-risk borrowers before approving loans. A **fictional Bnak loan dataset** is used to simulate real-world scenarios.
+The goal is to identify high-risk borrowers before approving loans. A **fictional Bank loan dataset** is used to simulate real-world scenarios.
 
 ## What’s Included
 - **Data Cleaning:** Handled missing values and removed unrealistic outliers  
